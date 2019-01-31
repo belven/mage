@@ -1,0 +1,18 @@
+{
+	"jobs": {
+		"mage": {
+			"mage_talisman": {
+				"display_name": "Staff",
+				"description": "Test."
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"magician_staff_recipe": {
+					"recipe_name": "Staff",
+					"description": "Test."
+				}
+			}
+		}
+	}
+}

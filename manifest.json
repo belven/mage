@@ -1,0 +1,19 @@
+{
+   "info": {
+      "name": "Mage",
+      "namespace": "mage",
+      "version": 1
+   },
+   "default_locale": "en",
+   "aliases": {
+      "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
+      "mage:staff": "file(jobs/mage/mage_talisman/mage_staff.json)",
+      "mage:talisman": "file(jobs/mage/mage_talisman/mage_talisman.json)"
+   },
+   "mixintos": {
+      "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)"
+   },
+   "overrides": {},
+   "components": {},
+   "controllers": {}
+}

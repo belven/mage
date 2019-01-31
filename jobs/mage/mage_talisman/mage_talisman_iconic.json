@@ -1,0 +1,25 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mage_talisman.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(mage:jobs.mage.mage_talisman.display_name)",
+         "description": "i18n(mage:jobs.mage.mage_talisman.description)",
+         "icon": "file(mage_talisman.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": [
+            "tool"
+         ]
+      }
+   }
+}

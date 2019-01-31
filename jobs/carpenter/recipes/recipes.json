@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "mage_staff": {
+               "recipe": "file(magician_staff_recipe.json)"
+            }
+         }      
+      }
+   }
+}

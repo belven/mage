@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(mage:jobs.carpenter.recipes.magician_staff_recipe.recipe_name)",
+   "description": "i18n(mage:jobs.carpenter.recipes.magician_staff_recipe.description)",
+   "flavor": "",
+   "portrait": "/mage/jobs/mage/mage_talisman/mage_staff.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "mage:mage:talisman"
+      }
+   ]
+}
