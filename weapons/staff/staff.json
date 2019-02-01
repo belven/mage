@@ -53,8 +53,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.staff.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.staff.description)",
+         "display_name": "i18n(mage:weapons.staff.display_name)",
+         "description": "i18n(mage:weapons.staff.description)",
          "icon": "file(staff.png)",
          "category": "weapons",
          "material_tags": ["wood", "ranged_weapon"]
