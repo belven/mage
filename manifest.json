@@ -7,11 +7,12 @@
    "default_locale": "en",
    "aliases": {
       "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
-      "mage:staff": "file(jobs/mage/mage_talisman/mage_staff.json)",
-      "mage:talisman": "file(jobs/mage/mage_talisman/mage_talisman.json)",	  
+      "mage:staff": "file(weapons/staff/staff.json)",
+      "mage:talisman": "file(weapons/staff/staff_talisman.json)",	  
       "jobs:mage": "file(jobs/mage/mage_description.json)",
       "jobs:index": "file(jobs/index.json)",
-      "mixins:item_properties": "file(mixins/item_properties.json)"
+      "mixins:item_properties": "file(mixins/item_properties.json)",	  
+	  "weapons:staff": "file(weapons/staff/staff.json)"
    },
    "mixintos": {
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",

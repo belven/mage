@@ -1,0 +1,13 @@
+{
+   "type": "buff",
+   "display_name": "i18n(stonehearth:jobs.archer.archer_buffs.slowing_arrow.display_name)",
+   "description": "i18n(stonehearth:jobs.archer.archer_buffs.slowing_arrow.description)",
+   "icon": "file(slowing_arrow.png)",
+   "duration": "10m",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "speed": {
+         "multiply": 0.3
+      }
+   }
+}
