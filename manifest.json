@@ -2,18 +2,24 @@
    "info": {
       "name": "Mage",
       "namespace": "mage",
-      "version": 1
+      "version": 3
    },
    "default_locale": "en",
    "aliases": {
       "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
       "mage:staff": "file(jobs/mage/mage_talisman/mage_staff.json)",
-      "mage:talisman": "file(jobs/mage/mage_talisman/mage_talisman.json)"
+      "mage:talisman": "file(jobs/mage/mage_talisman/mage_talisman.json)",	  
+      "jobs:mage": "file(jobs/mage/mage_description.json)",
+      "jobs:index": "file(jobs/index.json)",
+      "mixins:item_properties": "file(mixins/item_properties.json)"
    },
    "mixintos": {
-      "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)"
+      "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
+	  "stonehearth:jobs:index": "mage:jobs:index"
    },
    "overrides": {},
    "components": {},
-   "controllers": {}
+   "controllers": {
+	   "class:mage": "file(jobs/mage/mage.lua)"
+   }
 }

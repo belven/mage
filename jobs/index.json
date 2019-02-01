@@ -1,0 +1,7 @@
+{
+   "jobs": {
+      "mage:jobs:mage": {
+         "description": "mage:jobs:mage"
+      }
+   }
+}

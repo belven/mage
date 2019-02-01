@@ -1,0 +1,37 @@
+{
+   "type": "entity",
+   "mixins": "mage:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(mage_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(mage_outfit_female.qb)"
+            ]
+         }
+      },
+      "mage:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso"
+      }
+   },
+   "entity_data": {
+      "mage:combat:armor_data": {
+         "base_damage_reduction": 1
+      },
+      "mage:catalog": {
+         "display_name": "i18n(mage:jobs.mage.mage_outfit.display_name)",
+         "description": "i18n(mage:jobs.mage.mage_outfit.description)",
+         "icon": "file(mage_outfit.png)"
+      }
+   }
+}

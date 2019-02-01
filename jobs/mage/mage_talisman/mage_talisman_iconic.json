@@ -1,6 +1,6 @@
 {
+   "mixins": "mage:mixins:item_properties",
    "type": "entity",
-   "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "model_variants": {
          "default": {
@@ -16,10 +16,7 @@
          "description": "i18n(mage:jobs.mage.mage_talisman.description)",
          "icon": "file(mage_talisman.png)",
          "is_item": true,
-         "category": "tools",
-         "material_tags": [
-            "tool"
-         ]
+         "category": "weapons"
       }
    }
 }

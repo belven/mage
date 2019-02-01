@@ -1,0 +1,124 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "mage",
+   "display_order": 1,
+   "alias": "mage:jobs:mage",
+   "display_name": "i18n(mage:jobs.mage.mage_description.display_name)",
+   "controller": "mage:class:mage",
+   "description": "i18n(mage:jobs.mage.mage_description.description)",
+   "requirements": "i18n(mage:jobs.mage.mage_description.requirements)",
+   "talisman_uri": "mage:mage:talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(mage_abilities)",
+   "equipment": {
+      "torso": "file(mage_outfit)",
+      "mainhand": "mage:mage:staff"
+   },
+   "roles": [
+      "mage_job",
+      "combat"
+   ],
+   "promotion_activity_name": "promote_mage",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue"
+   ],
+   "icon": "file(images/icon.png)",
+   "initial_num_attended_hearthlings": 4,
+   "parent_job": "stonehearth:jobs:worker",
+   "xp_rewards": {
+      "town_protection": 1
+   },
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.mage.mage_description.level_1_data.perk_000_name)",
+               "id": "mage_heal_aura_1",
+               "icon": "file(images/mage_perk_healing_aura.png)",
+               "buff_name": "stonehearth:buffs:mage:heal_aura_1",
+               "description": "i18n(stonehearth:jobs.mage.mage_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.mage.mage_description.level_1_data.perk_001_name)",
+               "id": "mage_courage_aura",
+               "icon": "file(images/mage_perk_raise_muscle.png)",
+               "buff_name": "stonehearth:buffs:mage:minor_muscle_aura",
+               "description": "i18n(stonehearth:jobs.mage.mage_description.level_1_data.perk_001_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.mage.mage_description.level_2_data.perk_000_name)",
+               "id": "mage_compassion_buff_1",
+               "icon": "file(images/compassion_up.png)",
+               "buff_name": "stonehearth:buffs:mage:compassion_1",
+               "description": "i18n(stonehearth:jobs.mage.mage_description.level_2_data.perk_000_description)",
+               "level": 3,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.mage.mage_description.level_3_data.perk_000_name)",
+               "id": "mage_heal_aura_2",
+               "icon": "file(images/mage_perk_healing_aura_2.png)",
+               "buff_name": "stonehearth:buffs:mage:heal_aura_2",
+               "last_buff": "stonehearth:buffs:mage:heal_aura_1",
+               "description": "i18n(stonehearth:jobs.mage.mage_description.level_3_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.mage.mage_description.level_5_data.perk_000_name)",
+               "id": "mage_courage_aura_2",
+               "icon": "file(images/mage_perk_raise_muscle_2.png)",
+               "last_buff": "stonehearth:buffs:mage:minor_muscle_aura",
+               "buff_name": "stonehearth:buffs:mage:major_muscle_aura",
+               "description": "i18n(stonehearth:jobs.mage.mage_description.level_5_data.perk_000_description)",
+               "level": 5,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.mage.mage_description.level_6_data.perk_000_name)",
+               "id": "mage_compassion_buff_2",
+               "icon": "file(images/healing_master.png)",
+               "buff_name": "stonehearth:buffs:mage:compassion_2",
+               "last_buff": "stonehearth:buffs:mage:compassion_1",
+               "description": "i18n(stonehearth:jobs.mage.mage_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      }
+   }
+}

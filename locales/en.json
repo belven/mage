@@ -4,7 +4,16 @@
 			"mage_talisman": {
 				"display_name": "Staff",
 				"description": "Test."
-			}
+			},			
+			"mage_description": {
+				"display_name": "Mage",
+				"description": "A ranged combat class that uses magic to damage foes",
+				"requirements": "A few experimental components and a lot of errors!"				
+			},
+			"mage_outfit": {
+				"display_name": "Mage",
+				"description": "A "				
+			}			
 		},
 		"carpenter": {
 			"recipes": {
