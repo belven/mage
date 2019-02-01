@@ -6,8 +6,8 @@
    "entity_data": {
       "stonehearth:combat:ranged_attacks": [
          {
-            "name": "mage_double_shot",
-            "effect": "mage_1h_double_shot",
+            "name": "archer_double_shot",
+            "effect": "archer_1h_double_shot",
             "active_frame": 21,
             "active_frames": [
                21,

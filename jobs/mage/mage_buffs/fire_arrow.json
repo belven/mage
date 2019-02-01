@@ -1,8 +1,8 @@
 {
    "type": "buff",
-   "display_name": "i18n(stonehearth:jobs.archer.archer_buffs.fire_arrow.display_name)",
-   "description": "i18n(stonehearth:jobs.archer.archer_buffs.fire_arrow.description)",
-   "icon": "file(archer_buff_immolate.png)",
+   "display_name": "i18n(stonehearth:jobs.mage.mage_buffs.fire_arrow.display_name)",
+   "description": "i18n(stonehearth:jobs.mage.mage_buffs.fire_arrow.description)",
+   "icon": "file(mage_buff_immolate.png)",
    "duration": "15m",
    "effect": "stonehearth:effects:debuff_added:fire_debuff",
    "repeat_add_action": "renew_duration",

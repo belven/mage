@@ -1,10 +1,6 @@
 {
 	"jobs": {
-		"mage": {
-			"mage_talisman": {
-				"display_name": "Staff",
-				"description": "Test."
-			},			
+		"mage": {			
 			"mage_description": {
 				"display_name": "Mage",
 				"description": "A ranged combat class that uses magic to damage foes",
@@ -12,15 +8,27 @@
 			},
 			"mage_outfit": {
 				"display_name": "Mage",
-				"description": "A "				
+				"description": "Some light robes"				
 			}			
 		},
 		"carpenter": {
 			"recipes": {
 				"magician_staff_recipe": {
 					"recipe_name": "Staff",
-					"description": "Test."
+					"description": "A weapon used by the mage"
 				}
+			}
+		}
+	},
+	"weapons": {
+		"staff": {
+			"staff": {
+				"display_name": "Staff",
+				"description": "A weapon used by the mage"				
+			},	
+			"staff_talisman": {
+				"display_name": "Staff",
+				"description": "A weapon used by the mage"
 			}
 		}
 	}

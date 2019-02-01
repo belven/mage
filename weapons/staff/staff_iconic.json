@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": "mage:mixins:item_properties",
    "type": "entity",
    "components": {
       "model_variants": {
@@ -12,8 +12,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.staff.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.staff.description)",
+         "display_name": "i18n(mage:weapons.staff.display_name)",
+         "description": "i18n(mage:weapons.staff.description)",
          "icon": "file(staff.png)",
          "is_item": true,
          "category": "weapons"

@@ -1,6 +1,6 @@
 {
    "type": "entity",
-   "mixins": "stonehearth:mixins:item_properties",
+   "mixins": "mage:mixins:item_properties",
    "components": {
       "render_info": {},
       "model_variants": {
@@ -8,28 +8,28 @@
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(archer_hood.qb)"
+               "file(mage_hood.qb)"
             ]
          },
          "female": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(archer_hood_female.qb)"
+               "file(mage_hood_female.qb)"
             ]
          },
          "rabbit_male": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(archer_outfit_hood_rabbit.qb)"
+               "file(mage_outfit_hood_rabbit.qb)"
             ]
          },
          "rabbit_female": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(archer_outfit_hood_rabbit.qb)"
+               "file(mage_outfit_hood_rabbit.qb)"
             ]
          }
       },
@@ -45,9 +45,9 @@
          "base_damage_reduction": 2
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.display_name)",
-         "description": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.description)",
-         "icon": "file(archer_hood.png)"
+         "display_name": "Mage Hat",
+         "description": "Rather pointy",
+         "icon": "file(mage_hood.png)"
       }
    }
 }

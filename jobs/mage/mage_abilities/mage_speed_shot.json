@@ -6,8 +6,8 @@
    "entity_data": {
       "stonehearth:combat:ranged_attacks": [
          {
-            "name": "mage_draw_speed_up",
-            "effect": "mage_1h_shoot_fast",
+            "name": "archer_draw_speed_up",
+            "effect": "archer_1h_shoot_fast",
             "active_frame": 21,
             "cooldown": 0,
             "priority": 0
