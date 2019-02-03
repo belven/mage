@@ -6,11 +6,7 @@
             "ai_packs": [
                "stonehearth:ai_pack:patrolling",
                "stonehearth:ai_pack:ranged_combat",
-               "stonehearth:ai_pack:combat_control",
-               "stonehearth:ai_pack:mining",
-               "stonehearth:ai_pack:place_item",
-               "stonehearth:ai_pack:construction",
-               "stonehearth:ai_pack:ladders"
+               "stonehearth:ai_pack:combat_control"
             ]
          },
          "injected_buffs": [
