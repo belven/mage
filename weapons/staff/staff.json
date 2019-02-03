@@ -21,7 +21,7 @@
          ],
          "ilevel": 25,
          "no_drop": true
-      },	  
+      },
       "effect_list": {
          "default": "stonehearth:effects:arrow:fire"
       }
@@ -60,7 +60,10 @@
          "description": "i18n(mage:weapons.staff.description)",
          "icon": "file(staff.png)",
          "category": "weapons",
-         "material_tags": ["wood", "ranged_weapon"]
+         "material_tags": [
+            "wood",
+            "ranged_weapon"
+         ]
       }
    }
 }
