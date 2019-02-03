@@ -43,6 +43,34 @@
                "demote_fn": "remove_buff"
             }
 		]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_name)",
+               "id": "mage_speed_aura",
+               "icon": "file(images/knight_perk_inspiring_presence.png)",
+               "buff_name": "mage:buffs:mage:speed_aura",
+               "description": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_name)",
+               "id": "mage_speed_aura",
+               "icon": "file(images/knight_perk_inspiring_presence.png)",
+               "buff_name": "mage:buffs:mage:speed_aura",
+               "description": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_description)",
+               "level": 3,
+               "demote_fn": "remove_buff"
+            }
+         ]
       }
    }
 }

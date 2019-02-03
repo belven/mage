@@ -13,7 +13,10 @@
       "jobs:index": "file(jobs/index.json)",
       "mixins:item_properties": "file(mixins/item_properties.json)",	  
 	  "weapons:staff": "file(weapons/staff/staff.json)",	  
-      "buffs:mage:dmg_1": "file(jobs/mage/mage_buffs/damage_1_buff.json)"
+      "buffs:mage:dmg_1": "file(jobs/mage/mage_buffs/damage_1_buff.json)",
+	  "animations:mage:mage_1h_shoot": "file(jobs/mage/mage_1h_shoot.json)",
+	  "buffs:mage:speed_aura_effect": "file(jobs/mage/mage_buffs/speed_aura_effect.json)",	  
+	  "buffs:mage:speed_aura": "file(jobs/mage/mage_buffs/speed_aura.json)"
    },
    "mixintos": {
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",

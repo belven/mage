@@ -38,9 +38,9 @@
       },
       "stonehearth:combat:ranged_attacks": [
          {
-            "name": "archer_1h_shoot",
-            "effect": "archer_1h_shoot",
-            "active_frame": 5,
+            "name": "file(/jobs/mage/mage_1h_shoot.json)",
+            "effect": "file(/jobs/mage/mage_1h_shoot.json)",
+            "active_frame": 45,
             "cooldown": 0,
             "priority": 0
          }
