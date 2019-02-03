@@ -1,0 +1,13 @@
+{
+   "type": "buff",
+   "display_name": "i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_name)",
+   "description": "i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_description)",
+   "icon": "file(/jobs/mage/mage_buffs/expanded_mind_buff.png)",
+   "duration": "24h",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "curiosity": {
+         "add": 30
+      }
+   }
+}

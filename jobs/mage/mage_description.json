@@ -39,9 +39,9 @@
             {
                "type": "apply_buff",
                "name": "i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_name)",
-               "id": "mage_damage_up_1",
-               "icon": "file(images/damage_up_1.png)",
-               "buff_name": "mage:buffs:mage:dmg_1",
+               "id": "expanded_mind",
+               "icon": "file(images/expanded_mind_buff.png)",
+               "buff_name": "mage:buffs:mage:expanded_mind",
                "description": "i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_description)",
                "level": 1,
                "demote_fn": "remove_buff"
