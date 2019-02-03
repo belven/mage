@@ -1,4 +1,6 @@
 local MageClass = class()
-local CombatJob = require 'jobs.combat_job'
+
+local CombatJob = radiant.mods.require 'stonehearth.jobs.combat_job'
 radiant.mixin(MageClass, CombatJob)
+
 return MageClass
