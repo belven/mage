@@ -3,7 +3,7 @@
    "axis": "buff",
    "display_name": "Swift Breeze",
    "description": "The power of wind keeps you light on your feet",
-   "icon": "file(knight_buff_inspiring_presence.png)",
+   "icon": "file(/jobs/mage/mage_buffs/speed_aura.png)",
    "script": "stonehearth:buff_scripts:aura",
    "script_info": {
       "pulse": "5m",

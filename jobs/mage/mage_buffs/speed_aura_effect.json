@@ -3,7 +3,7 @@
    "axis": "buff",
    "display_name": "Wind Speed",
    "description": "Ride like the wind!",
-   "icon": "file(knight_buff_is_inspired.png)",
+   "icon": "file(/jobs/mage/mage_buffs/speed_aura_effect.png)",
    "duration": "15m",
    "repeat_add_action": "renew_duration",
    "persistent": false,

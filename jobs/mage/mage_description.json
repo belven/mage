@@ -21,7 +21,11 @@
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
-      "stonehearth:task_groups:rescue"
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:build"
    ],
    "xp_rewards": {
       "town_protection": 1
@@ -48,11 +52,11 @@
          "perks": [
             {
                "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_name)",
+               "name": "Swift Breeze",
                "id": "mage_speed_aura",
-               "icon": "file(images/knight_perk_inspiring_presence.png)",
+               "icon": "file(images/speed_aura_effect.png)",
                "buff_name": "mage:buffs:mage:speed_aura",
-               "description": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_description)",
+               "description": "Ride like the wind!",
                "level": 2,
                "demote_fn": "remove_buff"
             }
@@ -64,7 +68,7 @@
                "type": "add_combat_action",
                "name": "Icicle Blast",
                "id": "icicle_blast",
-               "icon": "file(images/default_shot.png)",
+               "icon": "file(images/ice_blast.png)",
                "equipment": "mage:abilities:mage:icicle_blast",
                "action_type": "stonehearth:combat:ranged_attacks",
                "description": "A sharp shard of ice that freezes the target",
