@@ -1,15 +1,15 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "i18n(stonehearth:jobs.knight.knight_buffs.courage_aura_effect_buff.display_name)",
-   "description": "i18n(stonehearth:jobs.knight.knight_buffs.courage_aura_effect_buff.description)",
+   "display_name": "Wind Speed",
+   "description": "Ride like the wind!",
    "icon": "file(knight_buff_is_inspired.png)",
-   "duration": "100m",
+   "duration": "15m",
    "repeat_add_action": "renew_duration",
    "persistent": false,
    "modifiers": {
       "speed": {
-         "add": 1000
+         "add": 100
       }
    }
 }

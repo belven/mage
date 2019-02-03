@@ -69,6 +69,7 @@
                "action_type": "stonehearth:combat:ranged_attacks",
                "description": "A sharp shard of ice that freezes the target",
                "level": 3,
+				"cooldown": 4000,
                "demote_fn": "remove_combat_action"
             }
          ]
