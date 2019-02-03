@@ -9,7 +9,11 @@
 			"mage_outfit": {
 				"display_name": "Mage",
 				"description": "Some light robes"				
-			}			
+			},
+			"perk_description": {
+				"display_name": "Mage",
+				"description": "A damage buff"				
+			}				
 		},
 		"carpenter": {
 			"recipes": {

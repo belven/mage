@@ -13,8 +13,20 @@
          },
          "injected_buffs": [
             "stonehearth:buffs:combat_basics"
-         ],
-         "military_score": 20
+         ]
       }
+   },
+   "entity_data": {
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "combat_1h_dodge",
+            "effect": "combat_1h_dodge",
+            "active_frame": 8,
+            "cooldown": 12000,
+            "priority": 1,
+            "chance_of_success": 0.25,
+            "defense_attribute": "dodge_chance"
+         }
+      ]
    }
 }

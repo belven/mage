@@ -1,8 +1,8 @@
 {
    "type": "buff",
-   "display_name": "i18n(stonehearth:jobs.mage.mage_buffs.damage_1_buff.display_name)",
-   "description": "i18n(stonehearth:jobs.mage.mage_buffs.damage_1_buff.description)",
-   "icon": "file(mage_buff_damage_up.png)",
+   "display_name": "Damage Buff",
+   "description": "Some more damage",
+   "icon": "file(/jobs/mage/mage_buffs/mage_buff_damage_up.png)",
    "modifiers": {
       "multiplicative_dmg_modifier": {
          "add": 0.2

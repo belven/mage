@@ -12,7 +12,8 @@
       "jobs:mage": "file(jobs/mage/mage_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "mixins:item_properties": "file(mixins/item_properties.json)",	  
-	  "weapons:staff": "file(weapons/staff/staff.json)"
+	  "weapons:staff": "file(weapons/staff/staff.json)",	  
+      "buffs:mage:dmg_1": "file(jobs/mage/mage_buffs/damage_1_buff.json)"
    },
    "mixintos": {
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",

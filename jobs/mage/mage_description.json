@@ -16,8 +16,8 @@
       "torso": "file(mage_outfit)",
       "mainhand": "mage:weapons:staff"
    },
-   "roles":["mage_job", "leather_wearer", "cloth_wearer", "ranged_combat", "combat", "hunter"],
-   "promotion_activity_name": "promote_archer",
+   "roles":["mage_job", "cloth_wearer", "ranged_combat", "combat", "hunter"],
+   "promotion_activity_name": "promote_mage",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
@@ -42,92 +42,7 @@
                "description": "i18n(stonehearth:jobs.archer.archer_description.level_1_data.perk_000_description)",
                "level": 1,
                "demote_fn": "remove_combat_action"
-            },
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.archer.archer_description.level_1_data.perk_001_name)",
-               "id": "archer_damage_up",
-               "icon": "file(images/archer_perk_damage_up.png)",
-               "buff_name": "stonehearth:buffs:archer:damage_up_1",
-               "description": "i18n(stonehearth:jobs.archer.archer_description.level_1_data.perk_001_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
             }
-         ]
-      },
-      "2": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.archer.archer_description.level_2_data.perk_000_name)",
-               "id": "archer_damage_up",
-               "icon": "file(images/archer_perk_armor_piercer.png)",
-               "buff_name": "stonehearth:buffs:archer:armor_penetration",
-               "description": "i18n(stonehearth:jobs.archer.archer_description.level_2_data.perk_000_description)",
-               "level": 2,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "3": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.archer.archer_description.level_3_data.perk_000_name)",
-               "id": "archer_range_increase_1",
-               "icon": "file(images/archer_perk_range_up_1.png)",
-               "buff_name": "stonehearth:buffs:archer:range_up_1",
-               "description": "i18n(stonehearth:jobs.archer.archer_description.level_3_data.perk_000_description)",
-               "level": 2,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "4": {
-         "perks": [
-            {
-               "type": "add_chained_combat_action",
-               "name": "i18n(stonehearth:jobs.archer.archer_description.level_4_data.perk_000_name)",
-               "id": "archer_speed_shot",
-               "icon": "file(images/archer_perk_atk_speed_up.png)",
-               "last_equipment": "stonehearth:archer:abilities:default_shot",
-               "action_type": "stonehearth:combat:ranged_attacks",
-               "equipment": "stonehearth:archer:abilities:speed_shot",
-               "description": "i18n(stonehearth:jobs.archer.archer_description.level_4_data.perk_000_description)",
-               "level": 4,
-               "demote_fn": "remove_combat_action"
-            }
-         ]
-      },
-      "5": {
-         "perks": [
-            {
-               "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.archer.archer_description.level_5_data.perk_000_name)",
-               "id": "archer_range_increase_2",
-               "icon": "file(images/archer_perk_range_up_2.png)",
-               "last_buff": "stonehearth:buffs:archer:range_up_1",
-               "buff_name": "stonehearth:buffs:archer:range_up_2",
-               "description": "i18n(stonehearth:jobs.archer.archer_description.level_5_data.perk_000_description)",
-               "level": 5,
-               "demote_fn": "remove_buff"
-            }
-         ]
-      },
-      "6": {
-         "perks": [
-            {
-               "type": "add_combat_action",
-               "name": "i18n(stonehearth:jobs.archer.archer_description.level_6_data.perk_000_name)",
-               "id": "archer_double_shot",
-               "icon": "file(images/archer_perk_double_shot.png)",
-               "equipment": "stonehearth:archer:abilities:double_shot",
-               "action_type": "stonehearth:combat:ranged_attacks",
-               "description": "i18n(stonehearth:jobs.archer.archer_description.level_6_data.perk_000_description)",
-               "level": 6,
-               "demote_fn": "remove_combat_action"
-            }
-         ]
       }
    }
 }

@@ -5,7 +5,7 @@
    "recipe_name": "i18n(mage:jobs.carpenter.recipes.magician_staff_recipe.recipe_name)",
    "description": "i18n(mage:jobs.carpenter.recipes.magician_staff_recipe.description)",
    "flavor": "",
-   "portrait": "staff.png",
+   "portrait": "/mage/jobs/carpenter/recipes/staff.png",
    "workshop": "stonehearth:carpenter:workbench",
    "level_requirement": 1,
    "ingredients": [
