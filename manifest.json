@@ -1,31 +1,38 @@
 {
-   "info": {
+   "info":{
       "name": "Mage",
       "namespace": "mage",
-      "version": 3
+      "version":3
    },
    "default_locale": "en",
-   "aliases": {
-	  "animations:mage:mage_1h_shoot": "file(jobs/mage/mage_1h_shoot.json)",
-      "buffs:archer:iceshard": "file(jobs/archer/archer_buffs/iceshard.json)",
+   "aliases":{
+      "animations:mage:mage_1h_shoot": "file(jobs/mage/mage_1h_shoot.json)",
+	  "abilities:mage:icicle_blast": "file(jobs/mage/mage_abilities/icicle_blast.json)",
       "buffs:mage:dmg_1": "file(jobs/mage/mage_buffs/damage_1_buff.json)",
-	  "buffs:mage:speed_aura_effect": "file(jobs/mage/mage_buffs/speed_aura_effect.json)",	
-	  "buffs:mage:speed_aura": "file(jobs/mage/mage_buffs/speed_aura.json)",
-	  "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
+      "buffs:mage:speed_aura_effect": "file(jobs/mage/mage_buffs/speed_aura_effect.json)",
+      "buffs:mage:speed_aura": "file(jobs/mage/mage_buffs/speed_aura.json)",
+      "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
+      "debuffs:mage:ice_debuff": "file(jobs/mage/mage_buffs/iceshard_debuff.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:mage": "file(jobs/mage/mage_description.json)",
       "mage:staff": "file(weapons/staff/staff.json)",
-      "mage:talisman": "file(weapons/staff/staff_talisman.json)",	  
-      "mixins:item_properties": "file(mixins/item_properties.json)",	  
-	  "weapons:staff": "file(weapons/staff/staff.json)"
+      "mage:talisman": "file(weapons/staff/staff_talisman.json)",
+      "mage:projectiles:icicle_projectile": "file(jobs/mage/projectiles/icicle_projectile.json)",
+      "mixins:item_properties": "file(mixins/item_properties.json)",
+      "weapons:staff": "file(weapons/staff/staff.json)",
+      "effects:icicle:particle": "file(jobs/mage/Particles/ice_debuff_particle.json)"
    },
-   "mixintos": {
+   "mixintos":{
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
       "stonehearth:jobs:index": "mage:jobs:index"
    },
-   "overrides": {},
-   "components": {},
-   "controllers": {
+   "overrides":{
+
+   },
+   "components":{
+
+   },
+   "controllers":{
       "class:mage": "file(jobs/mage/mage.lua)"
    }
 }

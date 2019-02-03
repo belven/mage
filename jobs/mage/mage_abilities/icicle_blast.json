@@ -7,13 +7,13 @@
       "stonehearth:buffs": {
          "inflictable_debuffs": {
             "infection": {
-               "uri": "stonehearth:buffs:archer:fire_arrow",
-               "chance": 0.5
+               "uri": "mage:debuffs:mage:ice_debuff",
+               "chance": 1.0
             }
          }
       },
       "stonehearth:projectile_data": {
-         "projectile_uri": "stonehearth:weapons:fire_arrow"
+         "projectile_uri": "mage:mage:projectiles:icicle_projectile"
       }
    }
 }

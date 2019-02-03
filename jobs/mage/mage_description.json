@@ -61,14 +61,15 @@
       "3": {
          "perks": [
             {
-               "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_name)",
-               "id": "mage_speed_aura",
-               "icon": "file(images/knight_perk_inspiring_presence.png)",
-               "buff_name": "mage:buffs:mage:speed_aura",
-               "description": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_description)",
+               "type": "add_combat_action",
+               "name": "Icicle Blast",
+               "id": "icicle_blast",
+               "icon": "file(images/default_shot.png)",
+               "equipment": "mage:abilities:mage:icicle_blast",
+               "action_type": "stonehearth:combat:ranged_attacks",
+               "description": "A sharp shard of ice that freezes the target",
                "level": 3,
-               "demote_fn": "remove_buff"
+               "demote_fn": "remove_combat_action"
             }
          ]
       }

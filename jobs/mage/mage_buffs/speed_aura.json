@@ -8,7 +8,7 @@
    "script_info": {
       "pulse": "10m",
       "aura_buff": "mage:buffs:mage:speed_aura_effect",
-      "radius": 20,
+      "radius": 100,
       "affect_self": true,
       "pulse_immediately": true,
       "target_type": "mob"
