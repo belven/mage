@@ -30,13 +30,11 @@
 	},
 	"weapons": {
 		"staff": {
-			"staff": {
-				"display_name": "Staff",
-				"description": "A weapon used by the mage"				
-			},	
+			"display_name": "Staff",
+			"description": "A weapon used by the mage",
 			"staff_talisman": {
 				"display_name": "Staff",
-				"description": "A weapon used by the mage"
+				"description": "A weapon used by the mage"	
 			}
 		}
 	}
