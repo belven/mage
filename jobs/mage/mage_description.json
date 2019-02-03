@@ -43,6 +43,7 @@
                "level": 1,
                "demote_fn": "remove_combat_action"
             }
+		]
       }
    }
 }
