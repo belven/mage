@@ -6,22 +6,25 @@
    },
    "default_locale": "en",
    "aliases": {
+      "buffs:archer:iceshard": "file(jobs/archer/archer_buffs/iceshard.json)",
+      "buffs:mage:dmg_1": "file(jobs/mage/mage_buffs/damage_1_buff.json)",
       "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
-      "mage:staff": "file(weapons/staff/staff.json)",
-      "mage:talisman": "file(weapons/staff/staff_talisman.json)",	  
-      "jobs:mage": "file(jobs/mage/mage_description.json)",
+      "effects:arrow:ice": "file(data/effects/arrow/ice.json)",
       "jobs:index": "file(jobs/index.json)",
-      "mixins:item_properties": "file(mixins/item_properties.json)",	  
-	  "weapons:staff": "file(weapons/staff/staff.json)",	  
-      "buffs:mage:dmg_1": "file(jobs/mage/mage_buffs/damage_1_buff.json)"
+      "jobs:mage": "file(jobs/mage/mage_description.json)",
+      "mage:abilities:icicle": "file(entities/weapons/projecticles/icicle/ice_skill.json)",
+      "mage:staff": "file(weapons/staff/staff.json)",
+      "mage:talisman": "file(weapons/staff/staff_talisman.json)",
+      "mixins:item_properties": "file(mixins/item_properties.json)",
+      "weapons:staff": "file(weapons/staff/staff.json)"
    },
    "mixintos": {
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
-	  "stonehearth:jobs:index": "mage:jobs:index"
+      "stonehearth:jobs:index": "mage:jobs:index"
    },
    "overrides": {},
    "components": {},
    "controllers": {
-	   "class:mage": "file(jobs/mage/mage.lua)"
+      "class:mage": "file(jobs/mage/mage.lua)"
    }
 }
