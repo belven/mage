@@ -1,76 +1,81 @@
 {
-   "type": "job",
-   "enabled": true,
-   "job_id": "mage",
-   "display_order": 1,
-   "alias": "mage:jobs:mage",
-   "display_name": "i18n(mage:jobs.mage.mage_description.display_name)",
-   "controller": "mage:class:mage",
-   "description": "i18n(mage:jobs.mage.mage_description.description)",
-   "requirements": "i18n(mage:jobs.mage.mage_description.requirements)",
-   "talisman_uri": "mage:mage:talisman",
-   "default_stance": "aggressive",
-   "abilities": "file(mage_abilities)",
-   "equipment": {
-      "helmet": "file(mage_outfit/mage_hood)",
-      "torso": "file(mage_outfit)",
-      "mainhand": "mage:weapons:staff"
+   "type":"job",
+   "enabled":true,
+   "job_id":"mage",
+   "display_order":1,
+   "alias":"mage:jobs:mage",
+   "display_name":"i18n(mage:jobs.mage.mage_description.display_name)",
+   "controller":"mage:class:mage",
+   "description":"i18n(mage:jobs.mage.mage_description.description)",
+   "requirements":"i18n(mage:jobs.mage.mage_description.requirements)",
+   "talisman_uri":"mage:mage:talisman",
+   "default_stance":"aggressive",
+   "abilities":"file(mage_abilities)",
+   "equipment":{
+      "helmet":"file(mage_outfit/mage_hood)",
+      "torso":"file(mage_outfit)",
+      "mainhand":"mage:weapons:staff"
    },
-   "roles":["mage_job", "cloth_wearer", "ranged_combat", "combat", "hunter"],
-   "promotion_activity_name": "promote_mage",
-   "task_groups": [
+   "roles":[
+      "mage_job",
+      "cloth_wearer",
+      "ranged_combat",
+      "combat",
+      "hunter"
+   ],
+   "promotion_activity_name":"promote_mage",
+   "task_groups":[
       "stonehearth:task_groups:common_tasks",
       "stonehearth:task_groups:restock",
       "stonehearth:task_groups:rescue"
    ],
-   "xp_rewards": {
-      "town_protection": 1
+   "xp_rewards":{
+      "town_protection":1
    },
-   "icon": "file(images/icon.png)",
-   "parent_job": "stonehearth:jobs:worker",
-   "max_level": 6,
-   "level_data": {
-      "1": {
-         "perks": [
+   "icon":"file(images/icon.png)",
+   "parent_job":"stonehearth:jobs:worker",
+   "max_level":6,
+   "level_data":{
+      "1":{
+         "perks":[
             {
-               "type": "apply_buff",
-               "name": "i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_name)",
-               "id": "expanded_mind",
-               "icon": "file(images/expanded_mind_buff.png)",
-               "buff_name": "mage:buffs:mage:expanded_mind",
-               "description": "i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_description)",
-               "level": 1,
-               "demote_fn": "remove_buff"
-            }
-		]
-      },
-      "2": {
-         "perks": [
-            {
-               "type": "apply_buff",
-               "name": "Swift Breeze",
-               "id": "mage_speed_aura",
-               "icon": "file(images/speed_aura_effect.png)",
-               "buff_name": "mage:buffs:mage:speed_aura",
-               "description": "Ride like the wind!",
-               "level": 2,
-               "demote_fn": "remove_buff"
+               "type":"apply_buff",
+               "name":"i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_name)",
+               "id":"expanded_mind",
+               "icon":"file(images/expanded_mind_buff.png)",
+               "buff_name":"mage:buffs:mage:expanded_mind",
+               "description":"i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_description)",
+               "level":1,
+               "demote_fn":"remove_buff"
             }
          ]
       },
-      "3": {
-         "perks": [
+      "2":{
+         "perks":[
             {
-               "type": "add_combat_action",
-               "name": "Icicle Blast",
-               "id": "icicle_blast",
-               "icon": "file(images/ice_blast.png)",
-               "equipment": "mage:abilities:mage:icicle_blast",
-               "action_type": "stonehearth:combat:ranged_attacks",
-               "description": "A sharp shard of ice that freezes the target",
-               "level": 3,
-				"cooldown": 4000,
-               "demote_fn": "remove_combat_action"
+               "type":"apply_buff",
+               "name":"Swift Breeze",
+               "id":"mage_speed_aura",
+               "icon":"file(images/speed_aura_effect.png)",
+               "buff_name":"mage:buffs:mage:speed_aura",
+               "description":"Ride like the wind!",
+               "level":2,
+               "demote_fn":"remove_buff"
+            }
+         ]
+      },
+      "3":{
+         "perks":[
+            {
+               "type":"add_combat_action",
+               "name":"Icicle Blast",
+               "id":"icicle_blast",
+               "icon":"file(images/ice_blast.png)",
+               "equipment":"mage:abilities:mage:icicle_blast",
+               "action_type":"stonehearth:combat:ranged_attacks",
+               "description":"A sharp shard of ice that freezes the target",
+               "level":3,
+               "demote_fn":"remove_combat_action"
             }
          ]
       }

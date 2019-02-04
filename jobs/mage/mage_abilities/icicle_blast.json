@@ -1,19 +1,34 @@
 {
-   "type": "entity",
-   "components": {
-      "stonehearth:equipment_piece": {}
-   },
-   "entity_data": {
-      "stonehearth:buffs": {
-         "inflictable_debuffs": {
-            "infection": {
-               "uri": "mage:debuffs:mage:ice_debuff",
-               "chance": 1.0
+    "type":"entity",
+    "components":{
+        "stonehearth:equipment_piece":{
+
+        }
+    },
+    "entity_data":{
+        "stonehearth:combat:weapon_data":{
+            "base_damage":25,
+            "base_ranged_damage":25,
+            "range":30,
+            "projectile_speed":30,
+            "projectile_uri":"mage:mage:projectiles:icicle_projectile"
+        },
+        "stonehearth:combat:ranged_attacks":[
+            {
+                "name":"combat_heal",
+                "effect":"combat_1h_heal",
+                "active_frame":30,
+                "cooldown":10000,
+                "priority":0
             }
-         }
-      },
-      "stonehearth:projectile_data": {
-         "projectile_uri": "mage:mage:projectiles:icicle_projectile"
-      }
-   }
+        ]
+    },
+    "stonehearth:buffs":{
+        "inflictable_debuffs":{
+            "infection":{
+                "uri":"mage:debuffs:mage:ice_debuff",
+                "chance":1.0
+            }
+        }
+    }
 }

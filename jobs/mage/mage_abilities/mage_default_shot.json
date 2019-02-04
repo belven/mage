@@ -7,7 +7,7 @@
       "stonehearth:combat:ranged_attacks": [
          {
             "name": "mage_default_shot",
-            "effect": "mage_1h_shoot",
+            "effect": "combat_1h_forehand_spin",
             "active_frame": 41,
             "cooldown": 0,
             "priority": 0

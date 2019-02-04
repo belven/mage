@@ -4,12 +4,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(fire_arrow.qb)"
+               "file(Icicle.qb)"
             ]
          }
       },
       "mob": {
-         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
       },
       "stonehearth:projectile": {},
       "effect_list": {
