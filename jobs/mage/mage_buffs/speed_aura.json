@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Swift Breeze",
+   "description": "The power of wind keeps you light on your feet",
+   "icon": "file(/jobs/mage/mage_buffs/speed_aura.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "5m",
+      "aura_buff": "mage:buffs:mage:speed_aura_effect",
+      "radius": 40,
+      "affect_self": true,
+      "pulse_immediately": true,
+      "target_type": "mob"
+   }
+}

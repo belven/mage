@@ -13,7 +13,7 @@
       },
       "stonehearth:projectile": {},
       "effect_list": {
-         "default": "stonehearth:effects:arrow:fire"
+         "default": "mage:effects:icicle:particle"
       }
    },
    "entity_data": {
