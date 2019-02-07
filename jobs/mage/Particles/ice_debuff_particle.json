@@ -3,7 +3,7 @@
    "tracks": {
       "cubemitter": {
          "type": "cubemitter",
-         "cubemitter": "particles/fire/fire.cubemitter.json",
+         "cubemitter": "ice.cubemitter.json",
          "loop": true,
          "transforms": {
             "x":0,
