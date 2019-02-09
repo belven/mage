@@ -10,6 +10,7 @@
       "animations:mage:mage_1h_shoot": "file(jobs/mage/mage_1h_shoot.json)",
 	  "abilities:mage:icicle_blast": "file(jobs/mage/mage_abilities/icicle_blast.json)",
 	  "abilities:mage:mage_default_shot": "file(jobs/mage/mage_abilities/mage_default_shot.json)",
+      "abilities:mage:chain_lightning": "file(jobs/mage/mage_abilities/chain_lightning.json)",
       "buffs:mage:expanded_mind": "file(jobs/mage/mage_buffs/expanded_mind_buff.json)",
       "buffs:mage:speed_aura_effect": "file(jobs/mage/mage_buffs/speed_aura_effect.json)",
       "buffs:mage:speed_aura": "file(jobs/mage/mage_buffs/speed_aura.json)",

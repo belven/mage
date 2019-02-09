@@ -78,6 +78,20 @@
                "demote_fn":"remove_combat_action"
             }
          ]
+      },
+      "4":{
+         "perks":[
+            {
+               "type":"apply_buff",
+               "name":"i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_name)",
+               "id":"chain_lightning",
+               "icon":"file(images/chain_lightning.png)",
+               "buff_name":"mage:abilities:mage:chain_lightning",
+               "description":"i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_description)",
+               "level":4,
+               "demote_fn":"remove_buff"
+            }
+         ]
       }
    }
 }

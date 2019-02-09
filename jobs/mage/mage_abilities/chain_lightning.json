@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Swift Breeze",
+   "description": "The power of wind keeps you light on your feet",
+   "icon": "file(/jobs/mage/mage_buffs/chain_lightning.png)",
+   "script": "file(chain_lightning_effect.lua)",
+   "script_info": {
+      "pulse": "5m",
+      "aura_buff": "",
+      "radius": 100,
+      "affect_self": true,
+      "pulse_immediately": true,
+      "target_type": "mob",
+	  "health_change": -100
+   }
+}
