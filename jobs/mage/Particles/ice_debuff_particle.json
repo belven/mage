@@ -3,7 +3,7 @@
    "tracks": {
       "cubemitter": {
          "type": "cubemitter",
-         "cubemitter": "ice.cubemitter.json",
+         "cubemitter": "file(ice.cubemitter.json)",
          "loop": true,
          "transforms": {
             "x":0,

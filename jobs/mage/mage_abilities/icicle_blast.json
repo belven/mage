@@ -19,19 +19,18 @@
             "projectile_uri":"mage:mage:projectiles:icicle_projectile"
         },
         "stonehearth:combat:weapon_data":{
-            "base_damage":25,
-            "base_ranged_damage":25,
+            "base_damage":100,
+            "base_ranged_damage":100,
             "range":30,
-            "projectile_speed":30,
-            "projectile_uri":"mage:mage:projectiles:icicle_projectile"
-        }
-    },
-    "stonehearth:buffs":{
-        "inflictable_debuffs":{
-            "infection":{
-                "uri":"mage:debuffs:mage:ice_debuff",
-                "chance":1.0
-            }
-        }
+            "projectile_speed":10
+        },
+		"stonehearth:buffs":{
+			"inflictable_debuffs":{
+				"infection":{
+					"uri":"mage:debuffs:mage:ice_debuff",
+					"chance":1.0
+				}
+			}
+		}
     }
 }
