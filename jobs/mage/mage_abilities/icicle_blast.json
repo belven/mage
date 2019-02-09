@@ -22,7 +22,7 @@
             "base_damage":100,
             "base_ranged_damage":100,
             "range":30,
-            "projectile_speed":10
+            "projectile_speed":1
         },
 		"stonehearth:buffs":{
 			"inflictable_debuffs":{

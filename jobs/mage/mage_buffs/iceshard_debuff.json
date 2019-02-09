@@ -4,7 +4,7 @@
    "description": "i18n(stonehearth:jobs.archer.archer_buffs.slowing_arrow.description)",
    "icon": "file(slowing_arrow.png)",
    "duration": "5m",
-   "effect": "mage:effects:icicle:particle",
+   "effect": "mage:effects:icicle_debuff:particle",
    "repeat_add_action": "renew_duration",
    "modifiers": {
       "speed": {

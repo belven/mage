@@ -22,7 +22,9 @@
       "mage:projectiles:icicle_projectile": "file(jobs/mage/projectiles/icicle_projectile.json)",
       "mixins:item_properties": "file(mixins/item_properties.json)",
       "weapons:staff": "file(weapons/staff/staff.json)",
-      "effects:icicle:particle": "file(jobs/mage/Particles/ice_debuff_particle.json)"
+      "effects:icicle:particle": "file(jobs/mage/particles/icicle_particle.json)",
+      "effects:icicle_debuff:particle": "file(jobs/mage/particles/icicle_debuff_particle.json)"
+	  
    },
    "mixintos":{
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
