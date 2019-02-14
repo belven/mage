@@ -92,6 +92,20 @@
                "demote_fn":"remove_buff"
             }
          ]
+      },
+      "5":{
+         "perks":[
+            {
+               "type":"apply_buff",
+               "name":"i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_name)",
+               "id":"earth_armour",
+               "icon":"file(images/earth_armour.png)",
+               "buff_name":"mage:abilities:mage:earth_armour",
+               "description":"i18n(mage:jobs.mage.mage_description.level_1_data.perk_000_description)",
+               "level":5,
+               "demote_fn":"remove_buff"
+            }
+         ]
       }
    }
 }
